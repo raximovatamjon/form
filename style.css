@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: (1200px,100%);
+    margin-inline: auto;
+    padding: 30px;
+}
+
+form{
+    border: solid;
+    height: 550px;   
+}
+header,main{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+#o1{
+    width: 100%;
+}
+.m{
+    display: flex;   
+    gap: 35px;
+}
+.mleft{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.mright{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+}
+.select{
+    display: flex;
+    gap: 10px;
+}
+footer{
+    gap: 15px;
+    padding: 20px;
+    
+}
+#texta{
+    width: 400px;
+    height: 200px;
+}
+.h{
+    gap: 15px;
+    padding: 20px;
+}
